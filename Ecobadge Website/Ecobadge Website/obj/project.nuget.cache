@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WRe6O/OCcj1VF6A7rnDyJ83UL8mC5s/28ylBK69viDiN8UNnncihEhIgT3drfpwj92tyORE1n01rlpJv1u6EVA==",
+  "dgSpecHash": "1qq/oQBvvYFZNFutmROTG58dOJG2AFr6jY7epBknUS0F87cEk+QoAteqNyhypihox/2A/JxVQmICKxedTPXb7Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jafru\\source\\repos\\Ecobadge Website\\Ecobadge Website\\Ecobadge Website.csproj",
+  "projectFilePath": "C:\\Users\\jafru\\Documents\\GitHub\\comp2003_2021-group-a\\Ecobadge Website\\Ecobadge Website\\Ecobadge Website.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jafru\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
   ],
