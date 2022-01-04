@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0WYKzKaehiw252kuFz7sGW6ErBYF3RQz+Kvh2xEjxE2D1arEQkX5ZfbsMJ5mLF4/DkqIfOLqyEVElvFqQ+8XXg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jafru\\source\\repos\\Ecobadge Web Application Project\\Ecobadge Web Application Project\\Ecobadge Web Application Project.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jafru\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
