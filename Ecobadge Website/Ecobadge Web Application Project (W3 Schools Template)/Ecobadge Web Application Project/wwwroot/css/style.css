@@ -1,0 +1,11 @@
+﻿footer {
+    background-color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar {
+    background-color: #5B361F;
+    color: white
+}
