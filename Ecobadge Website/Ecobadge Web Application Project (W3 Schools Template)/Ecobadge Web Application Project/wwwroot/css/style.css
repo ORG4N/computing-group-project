@@ -18,6 +18,9 @@
     background-color: #CEC636;
 }
 
+.btn btn-primary btn-lg active {
+    background-color: #CEC636;
+}
 /* Style all font awesome icons */
 .fa {
     padding: 20px;
