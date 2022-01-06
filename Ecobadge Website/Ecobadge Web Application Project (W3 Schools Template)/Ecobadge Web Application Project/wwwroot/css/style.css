@@ -36,9 +36,20 @@
     -moz-appearance: none;
 }
 
-.btn btn-primary btn-lg active {
-    background-color: #CEC636;
+.container text-center {
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.preview {
+    margin-left: 20%;
+    margin-right: auto;
+    width: 80%;
+    height: 60%;
+}
+
+
+
 /* Style all font awesome icons */
 .fa {
     padding: 20px;
