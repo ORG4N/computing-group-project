@@ -273,3 +273,44 @@ C:\Users\aclev\Documents\GitHub\comp2003_2021-group-a\Ecobadge Website revamped\
 C:\Users\aclev\Documents\GitHub\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Ecobadge Website.pdb
 C:\Users\aclev\Documents\GitHub\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Ecobadge Website.genruntimeconfig.cache
 C:\Users\aclev\Documents\GitHub\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Ecobadge Website.csproj.CopyComplete
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Ecobadge Website.csproj.AssemblyReference.cache
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Ecobadge Website.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Ecobadge Website.AssemblyInfoInputs.cache
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Ecobadge Website.AssemblyInfo.cs
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Ecobadge Website.csproj.CoreCompileInputs.cache
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Ecobadge Website.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Ecobadge Website.RazorAssemblyInfo.cache
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Ecobadge Website.RazorAssemblyInfo.cs
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Ecobadge Website.dll
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\ref\Ecobadge Website.dll
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Ecobadge Website.pdb
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\bin\Debug\net5.0\appsettings.json
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\bin\Debug\net5.0\Ecobadge Website.StaticWebAssets.xml
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\bin\Debug\net5.0\Ecobadge Website.exe
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\bin\Debug\net5.0\Ecobadge Website.deps.json
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\bin\Debug\net5.0\Ecobadge Website.runtimeconfig.json
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\bin\Debug\net5.0\Ecobadge Website.runtimeconfig.dev.json
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\bin\Debug\net5.0\Ecobadge Website.dll
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\bin\Debug\net5.0\ref\Ecobadge Website.dll
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\bin\Debug\net5.0\Ecobadge Website.pdb
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\bin\Debug\net5.0\Ecobadge Website.Views.dll
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\bin\Debug\net5.0\Ecobadge Website.Views.pdb
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\scopedcss\bundle\Ecobadge Website.styles.css
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\staticwebassets\Ecobadge Website.StaticWebAssets.Manifest.cache
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Ecobadge Website.TagHelpers.input.cache
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Ecobadge Website.TagHelpers.output.cache
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Ecobadge Website.RazorCoreGenerate.cache
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Razor\Pages\About_us.cshtml.g.cs
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Razor\Pages\Directory.cshtml.g.cs
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Razor\Pages\Login.cshtml.g.cs
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Ecobadge Website.RazorTargetAssemblyInfo.cache
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Ecobadge Website.RazorTargetAssemblyInfo.cs
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Ecobadge Website.Views.pdb
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Ecobadge Website.genruntimeconfig.cache
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Ecobadge Website.csproj.CopyComplete

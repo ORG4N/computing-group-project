@@ -9,6 +9,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+using Ecobadge_Website.Services;
+
 namespace Ecobadge_Website
 {
     public class Startup
@@ -24,6 +26,8 @@ namespace Ecobadge_Website
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddAuthorization();
+            services.AddControllers();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -50,7 +54,11 @@ namespace Ecobadge_Website
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
+                endpoints.MapControllers();
             });
+
+            BusinessService.Init();
+
         }
     }
 }
