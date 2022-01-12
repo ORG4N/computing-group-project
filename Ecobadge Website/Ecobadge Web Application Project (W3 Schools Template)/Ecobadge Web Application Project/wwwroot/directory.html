@@ -98,33 +98,230 @@
         </form>
     </div>
     <div class="container">
-        <table class="table table-bordered">
+        <table class="js-csv-data csv-data js-file-line-container">
             <thead>
-                <tr>
-                    <th>Resturant Name</th>
-                    <th>Location</th>
-                    <th>Cuisine</th>
-                    <th>Eco Badge Tier</th>
+                <tr id="LC1" class="js-file-line">
+                    <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+                    <th>Company Name</th>
+                    <th>Company Address </th>
+                    <th>Company Postcode</th>
+                    <th>Company Phone Number</th>
+                    <th>Company Email </th>
+                    <th>Company Webiste </th>
+                    <th>Picture (Upload)</th>
+                    <th>Cuisine/s</th>
+                    <th>ECO Badge Score </th>
+                    <th>ECO Badge Teir</th>
+                    <th>Supplies Vegan Dishes </th>
+                    <th>Does Not Use Single Use Plastic</th>
+                    <th>Uses a Foodwaste Collection Scheme</th>
+                    <th>Only Uses Local Produce (100 miles) </th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>Bob's Burgers</td>
-                    <td>Union street</td>
-                    <td>Burgers,Chicken</td>
+                <tr id="LC2" class="js-file-line">
+                    <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
+                    <td>J's Sandwhich Shop</td>
+                    <td>90 Clifton Pl, Mutley, Plymouth</td>
+                    <td>PL4 8HU </td>
+                    <td>1752098780</td>
+                    <td>info@jssandwhichshop.co.uk</td>
+                    <td>jssandwhichshop.co.uk</td>
+                    <td></td>
+                    <td>Sandwhiches</td>
+                    <td>80</td>
+                    <td>Gold </td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>No </td>
+                    <td>Yes</td>
+                </tr>
+                <tr id="LC3" class="js-file-line">
+                    <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
+                    <td>Vegan Kitchen</td>
+                    <td>Palace Street, Plymouth </td>
+                    <td>PL1 2AY</td>
+                    <td>1752135862</td>
+                    <td>hello@vegankitchen.co.uk</td>
+                    <td>vegankitchen.co.uk </td>
+                    <td></td>
+                    <td>Mediterarian, Vegan</td>
+                    <td>95</td>
+                    <td>Platinum </td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                </tr>
+                <tr id="LC4" class="js-file-line">
+                    <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
+                    <td>Churchill Inn </td>
+                    <td>Sutton Harbour </td>
+                    <td>PL4 0DN </td>
+                    <td>1752279732</td>
+                    <td>Info@churchillinn.co.uk</td>
+                    <td>churchillinn.co.uk</td>
+                    <td></td>
+                    <td>Pub Food</td>
+                    <td>85</td>
                     <td>Gold</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>No </td>
+                    <td>Yes</td>
                 </tr>
-                <tr>
-                    <td>Mcdonalds</td>
-                    <td>New George street</td>
-                    <td>Burgers,Chicken</td>
-                    <td>Platinum</td>
+                <tr id="LC5" class="js-file-line">
+                    <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
+                    <td>McDouglas  </td>
+                    <td>Edward St, Plymouth</td>
+                    <td>PL1 1QZ</td>
+                    <td>1752380536</td>
+                    <td>hello@mcDouglas.com</td>
+                    <td>mcdouglas.com</td>
+                    <td></td>
+                    <td>Fast Food</td>
+                    <td>75</td>
+                    <td>Gold </td>
+                    <td>No </td>
+                    <td>No </td>
+                    <td>No </td>
+                    <td>No </td>
                 </tr>
-                <tr>
-                    <td>KFC</td>
-                    <td>Mutley Plain</td>
-                    <td>Chicken</td>
+                <tr id="LC6" class="js-file-line">
+                    <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
+                    <td>Pizza Palace </td>
+                    <td>Barbican Leisure Park</td>
+                    <td>PL4 0AA</td>
+                    <td>1752480547</td>
+                    <td>info@pizzapalace.co.uk </td>
+                    <td>pizzapalace.co.uk</td>
+                    <td></td>
+                    <td>Pizza, Pasta</td>
+                    <td>65</td>
                     <td>Silver</td>
+                    <td>Yes</td>
+                    <td>No </td>
+                    <td>No </td>
+                    <td>No </td>
+                </tr>
+                <tr id="LC7" class="js-file-line">
+                    <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
+                    <td>Johns Pasta </td>
+                    <td>1, First Street</td>
+                    <td>PL9 0LP </td>
+                    <td>1752500243</td>
+                    <td>Info@johnspasta.co.uk </td>
+                    <td>johnspasta.co.uk</td>
+                    <td></td>
+                    <td>Pasta, Italian </td>
+                    <td>55</td>
+                    <td>Silver</td>
+                    <td>No </td>
+                    <td>Yes</td>
+                    <td>No </td>
+                    <td>No </td>
+                </tr>
+                <tr id="LC8" class="js-file-line">
+                    <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
+                    <td>Luigis Pizza </td>
+                    <td>10, Main Street </td>
+                    <td>PL2 4RN </td>
+                    <td>1752612385</td>
+                    <td>help@luigispizza.co.uk</td>
+                    <td>luigispizza.co.uk</td>
+                    <td></td>
+                    <td>Pizza, Italian  </td>
+                    <td>78</td>
+                    <td>Gold</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>No </td>
+                    <td>Yes</td>
+                </tr>
+                <tr id="LC9" class="js-file-line">
+                    <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
+                    <td>Best Kebaby </td>
+                    <td>90 Regent Street</td>
+                    <td>PL3 9XZ</td>
+                    <td>1752709885</td>
+                    <td>contact@bestkebaby.co.uk </td>
+                    <td>bestkebaby.co.uk</td>
+                    <td></td>
+                    <td>Kebab, Fast Food, Turkish</td>
+                    <td>30</td>
+                    <td>Bronze </td>
+                    <td>No </td>
+                    <td>No </td>
+                    <td>No </td>
+                    <td>No </td>
+                </tr>
+                <tr id="LC10" class="js-file-line">
+                    <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
+                    <td>Lucky Wok </td>
+                    <td>Hornbeam Close </td>
+                    <td>PL8 1XX</td>
+                    <td>1752888111</td>
+                    <td>shop@luckywok.co.uk</td>
+                    <td>luckywok.co.uk</td>
+                    <td></td>
+                    <td>Chinese, Cantonese</td>
+                    <td>35</td>
+                    <td>Bronze </td>
+                    <td>No </td>
+                    <td>No </td>
+                    <td>No </td>
+                    <td>No </td>
+                </tr>
+                <tr id="LC11" class="js-file-line">
+                    <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
+                    <td>NinetyOne</td>
+                    <td>Kimberley Road </td>
+                    <td>PL6 8AN </td>
+                    <td>1752949721</td>
+                    <td>hello@ninetyone.com</td>
+                    <td>ninetyone.com</td>
+                    <td></td>
+                    <td>Japanese </td>
+                    <td>72</td>
+                    <td>Silver </td>
+                    <td>Yes</td>
+                    <td>No </td>
+                    <td>No </td>
+                    <td>No </td>
+                </tr>
+                <tr id="LC12" class="js-file-line">
+                    <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
+                    <td>Marracas</td>
+                    <td>Albert Street</td>
+                    <td>PL7 1QU </td>
+                    <td>1752109872</td>
+                    <td>info@marracas.co.uk</td>
+                    <td>marracas.co.uk </td>
+                    <td></td>
+                    <td>Mexican </td>
+                    <td>46</td>
+                    <td>Silver</td>
+                    <td>No </td>
+                    <td>No </td>
+                    <td>Yes</td>
+                    <td>No </td>
+                </tr>
+                <tr id="LC13" class="js-file-line">
+                    <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
+                    <td>Marco's</td>
+                    <td>Heath Close</td>
+                    <td>PL2 7PQ</td>
+                    <td>1752292929</td>
+                    <td>book@marcos.co.uk</td>
+                    <td>marcos.co.uk</td>
+                    <td></td>
+                    <td>Fine Dining</td>
+                    <td>80</td>
+                    <td>Gold </td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>No </td>
+                    <td>No </td>
                 </tr>
             </tbody>
         </table>
