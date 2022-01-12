@@ -8,23 +8,23 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\jafru\\.nuget\\packages\\": {},
+    "C:\\Users\\aclev\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jafru\\Documents\\GitHub\\comp2003_2021-group-a\\Ecobadge Website\\Ecobadge Web Application Project (W3 Schools Template)\\Ecobadge Web Application Project\\Ecobadge Web Application Project.csproj",
+      "projectUniqueName": "C:\\Users\\aclev\\Documents\\GitHub\\comp2003_2021-group-a\\Ecobadge Website\\Ecobadge Web Application Project (W3 Schools Template)\\Ecobadge Web Application Project\\Ecobadge Web Application Project.csproj",
       "projectName": "Ecobadge Web Application Project",
-      "projectPath": "C:\\Users\\jafru\\Documents\\GitHub\\comp2003_2021-group-a\\Ecobadge Website\\Ecobadge Web Application Project (W3 Schools Template)\\Ecobadge Web Application Project\\Ecobadge Web Application Project.csproj",
-      "packagesPath": "C:\\Users\\jafru\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jafru\\Documents\\GitHub\\comp2003_2021-group-a\\Ecobadge Website\\Ecobadge Web Application Project (W3 Schools Template)\\Ecobadge Web Application Project\\obj\\",
+      "projectPath": "C:\\Users\\aclev\\Documents\\GitHub\\comp2003_2021-group-a\\Ecobadge Website\\Ecobadge Web Application Project (W3 Schools Template)\\Ecobadge Web Application Project\\Ecobadge Web Application Project.csproj",
+      "packagesPath": "C:\\Users\\aclev\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aclev\\Documents\\GitHub\\comp2003_2021-group-a\\Ecobadge Website\\Ecobadge Web Application Project (W3 Schools Template)\\Ecobadge Web Application Project\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\jafru\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\aclev\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -60,12 +60,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.12, 5.0.12]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -74,7 +68,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

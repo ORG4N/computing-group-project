@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vxE5aytfzAmauz4D3zIXIxW+FYSNlpp9YJa0FUYDTgntZlcKwZunDK/dvou44W599X+hSQxn/83aPtJ6poBdtg==",
+  "dgSpecHash": "iFw2/CDHr5dNQWH6WHBBUEoFqwg431XNHJjm0fOPO7lQGDHvJBdJ74qumXDaDKTIsFv7NCCWOj+xKFK95+yegw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jafru\\Documents\\GitHub\\comp2003_2021-group-a\\Ecobadge Website\\Ecobadge Web Application Project (W3 Schools Template)\\Ecobadge Web Application Project\\Ecobadge Web Application Project.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\jafru\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\aclev\\Documents\\GitHub\\comp2003_2021-group-a\\Ecobadge Website\\Ecobadge Web Application Project (W3 Schools Template)\\Ecobadge Web Application Project\\Ecobadge Web Application Project.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
