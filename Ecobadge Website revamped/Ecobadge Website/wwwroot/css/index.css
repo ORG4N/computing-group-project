@@ -1,4 +1,4 @@
-﻿.wrapper {
+﻿﻿.wrapper {
     padding: 20px;
     padding-top: 25px;
 }
@@ -17,10 +17,9 @@
 .info-title {
     color: #75ae67;
     font-size: 2em;
-    padding-bottom:10px;
+    padding-bottom: 10px;
 }
 
-.info-btns{
-    margin-top:20px;
+.info-btns {
+    margin-top: 20px;
 }
-

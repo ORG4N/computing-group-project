@@ -1,88 +1,121 @@
-﻿@page
+﻿@page 
 @model Ecobadge_Website.Pages.DirectoryModel
 @{
     ViewData["Title"] = "Directory";
 }
 
-<div class="container">
-    <h1>Search by...</h1>
+@section Styles {
+    <link href="@Url.Content("~/css/directory.css")" rel="stylesheet" type="text/css" />
+}
 
+<div class="container wrapper">
 
-    <div class="dropdown">
-        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
-            Location
-            <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu">
-            <li><a href="#">Plymouth</a></li>
-            <li><a href="#">Exeter</a></li>
-            <li><a href="#">Bristol</a></li>
-        </ul>
+    <div class="row">
+
+        <div class="col-12 text-container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="row">
+                        <input class="form-check-input" type="checkbox" value="" id="plastic">
+                            <label class="form-check-label" for="plastic">
+                            Less than 20% single use plastic
+                        </label>
+                    </div>
+                    <div class="row">
+                        <input class="form-check-input" type="checkbox" value="" id="recycled">
+                        <label class="form-check-label" for="recycled">
+                        More than 80% recycled waste
+                        </label>
+                    </div>
+                    <div class="row">
+                        <input class="form-check-input" type="checkbox" value="" id="carbon">
+                        <label class="form-check-label" for="carbon">
+                        Carbon neutral
+                        </label>
+                    </div>
+                    <div class="row">
+                        <input class="form-check-input" type="checkbox" value="" id="renewable">
+                        <label class="form-check-label" for="renewable">
+                        Uses renewable energy
+                        </label>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="dropdown py-1">
+                        <button class="btn-block btn-success dropdown-toggle" type="button" data-toggle="dropdown">
+                            Location
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Plymouth</a></li>
+                            <li><a href="#">Exeter</a></li>
+                            <li><a href="#">Bristol</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="dropdown py-1">
+                        <button class="btn-block btn-success dropdown-toggle" type="button" data-toggle="dropdown">
+                            Cuisine
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Burgers</a></li>
+                            <li><a href="#">Chicken</a></li>
+                            <li><a href="#">Pizza</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="dropdown py-1">
+                        <button class="btn-block btn-success dropdown-toggle" type="button" data-toggle="dropdown">
+                            Eco Badge Tier
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Platinum</a></li>
+                            <li><a href="#">Gold</a></li>
+                            <li><a href="#">Silver</a></li>
+                            <li><a href="#">Bronze</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="dropdown">
-        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
-            Cuisine
-            <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu">
-            <li><a href="#">Burgers</a></li>
-            <li><a href="#">Chicken</a></li>
-            <li><a href="#">Pizza</a></li>
-        </ul>
-    </div>
+    <div class="table-responsive">
+        <div class="table-wrapper">
 
-    <div class="dropdown">
-        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
-            Eco Badge Tier
-            <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu">
-            <li><a href="#">Platinum</a></li>
-            <li><a href="#">Gold</a></li>
-            <li><a href="#">Silver</a></li>
-            <li><a href="#">Bronze</a></li>
-        </ul>
+            <table class="table table-hover" style="margin-bottom:0" id="businesses">
+
+                <thead>
+                    <tr>
+                        <th>Company</th>
+                        <th>Address</th>
+                        <th>Postcode</th>
+                        <th>Tel</th>
+                        <th>Email</th>
+                        <th>Website</th>
+                        <th>Picture</th>
+                        <th>Cuisine</th>
+                        <th>Score</th>
+                        <th>Tier</th>
+                        <th>Vegan friendly</th>
+                        <th>Doesn't use single use plastic</th>
+                        <th>Foodwaste collection scheme</th>
+                        <th>Local produce</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                </tbody>
+
+            </table>
+        </div>
     </div>
 </div>
-<div class="container">
-    <form action="/action_page.php">
-        <input type="checkbox" id="<20%plastic" name="<20%plastic" value="1">
-        <label for="<20%plastic"><20% single use plastic</label><br>
-        <input type="checkbox" id=">80%recycled" name=">80%recycled" value="1">
-        <label for=">80%recycled"> >80% recycled waste</label><br>
-        <input type="checkbox" id="carbonneutral" name="carbonneutral" value="1">
-        <label for="carbonneutral"> Carbon neutral</label><br>
-        <input type="checkbox" id="renewableenergy" name="renewableenergy" value="1">
-        <label for="renewableenergy"> Uses renewable energy</label><br><br>
-    </form>
-</div>
-<div class="container">
-    <table class="js-csv-data csv-data js-file-line-container" id="businesses">
-        <thead>
-            <tr id="LC1" class="js-file-line">
-                <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
-                <th>Company Name</th>
-                <th>Company Address </th>
-                <th>Company Postcode</th>
-                <th>Company Phone Number</th>
-                <th>Company Email </th>
-                <th>Company Webiste </th>
-                <th>Picture (Upload)</th>
-                <th>Cuisine/s</th>
-                <th>ECO Badge Score </th>
-                <th>ECO Badge Tiir</th>
-                <th>Supplies Vegan Dishes </th>
-                <th>Does Not Use Single Use Plastic</th>
-                <th>Uses a Foodwaste Collection Scheme</th>
-                <th>Only Uses Local Produce (100 miles) </th>
-            </tr>
-        </thead>
-        <tbody>
-            
-        </tbody>
-    </table>
-</div>
+
 
 <script>
 

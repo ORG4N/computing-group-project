@@ -273,7 +273,6 @@ C:\Users\aclev\Documents\GitHub\comp2003_2021-group-a\Ecobadge Website revamped\
 C:\Users\aclev\Documents\GitHub\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Ecobadge Website.pdb
 C:\Users\aclev\Documents\GitHub\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Ecobadge Website.genruntimeconfig.cache
 C:\Users\aclev\Documents\GitHub\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Ecobadge Website.csproj.CopyComplete
-C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Ecobadge Website.csproj.AssemblyReference.cache
 C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Ecobadge Website.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Ecobadge Website.AssemblyInfoInputs.cache
 C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Ecobadge Website.AssemblyInfo.cs
@@ -314,3 +313,4 @@ C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadg
 C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Ecobadge Website.Views.pdb
 C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Ecobadge Website.genruntimeconfig.cache
 C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Ecobadge Website.csproj.CopyComplete
+C:\Users\datgu\Documents\comp2003_2021-group-a\Ecobadge Website revamped\Ecobadge Website\obj\Debug\net5.0\Ecobadge Website.csproj.AssemblyReference.cache
