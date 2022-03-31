@@ -8,7 +8,7 @@
     <link href="@Url.Content("~/css/directory.css")" rel="stylesheet" type="text/css" />
 }
 
-<div class="container wrapper">
+<div class="container-fluid wrapper">
 
     <div class="row">
 
@@ -91,14 +91,10 @@
                 <thead>
                     <tr>
                         <th>Company</th>
-                        <th>Address</th>
+                        <th>County</th>
+                        <th>Street</th>
                         <th>Postcode</th>
-                        <th>Tel</th>
-                        <th>Email</th>
-                        <th>Website</th>
-                        <th>Picture</th>
-                        <th>Cuisine</th>
-                        <th>Score</th>
+                        <th>Telephone</th>
                         <th>Tier</th>
                         <th>Vegan friendly</th>
                         <th>Doesn't use single use plastic</th>
@@ -119,31 +115,35 @@
 
 <script>
 
+    const element = document.getElementById("parent");
+    element.classList.remove("container");
+    element.classList.add("container-fluid");
+
     fetchBookings();
 
     async function fetchBookings() {
 
-        const url = "https://localhost:44393/api/business";
+        const url = "https://localhost:44393/api/companies";
         const raw = await fetch(url);
 
         const data = await raw.json();
 
-        data.forEach(({ name, address, postcode, tel, email, website, picture, cuisine, tier, vegan, plastic, foodwaste, local }) => {
+        data.forEach(({ companyName, county, address, postcode, tel, cuisine, ecobadgeTier, veganDishes, singleUsePlastic, foodWasteCollectionScheme, localProduce }) => {
             $("#businesses").find('tbody').append(`<tr id="LC13" class="js-file-line">
-                <td>${name}</td>
+                <td>${companyName}</td>
+                <td>${county}</td>
                 <td>${address}</td>
                 <td>${postcode}</td>
                 <td>${tel}</td>
-                <td>${email}</td>
-                <td>${website}</td>
-                <td>${picture}</td>
-                <td>${cuisine}</td>
-                <td>${vegan}</td>
-                <td>${plastic}</td>
-                <td>${foodwaste}</td>
-                <td>${local}</td>
+                <td>${ecobadgeTier}</td>
+                <td>${veganDishes}</td>
+                <td>${singleUsePlastic}</td>
+                <td>${foodWasteCollectionScheme}</td>
+                <td>${localProduce}</td>
                 </tr>`);
     });
+
+
 }
 
 </script>

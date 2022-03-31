@@ -8,8 +8,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
-using Ecobadge_Website.Services;
+using Ecobadge_Website.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Ecobadge_Website
 {
@@ -25,6 +25,7 @@ namespace Ecobadge_Website
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<COMP2003_AContext>(options => options.UseSqlServer(Configuration.GetConnectionString("COMP2003")));
             services.AddRazorPages();
             services.AddAuthorization();
             services.AddControllers();
@@ -56,8 +57,6 @@ namespace Ecobadge_Website
                 endpoints.MapRazorPages();
                 endpoints.MapControllers();
             });
-
-            BusinessService.Init();
 
         }
     }
