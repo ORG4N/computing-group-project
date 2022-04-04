@@ -18,6 +18,7 @@ namespace Ecobadge_Website.Models
         }
 
         public virtual DbSet<Company> Companies { get; set; }
+        public virtual DbSet<CompanyCuisine> CompanyCuisines { get; set; }
         public virtual DbSet<Cuisine> Cuisines { get; set; }
         public virtual DbSet<Login> Logins { get; set; }
         public virtual DbSet<Review> Reviews { get; set; }
@@ -95,6 +96,32 @@ namespace Ecobadge_Website.Models
                 entity.Property(e => e.WebsiteLink)
                     .HasMaxLength(255)
                     .IsUnicode(false);
+            });
+
+            modelBuilder.Entity<CompanyCuisine>(entity =>
+            {
+                entity.HasKey(e => e.CompanyCuisinesId)
+                    .HasName("PK_CompanyCuisinesPK");
+
+                entity.ToTable("CompanyCuisines", "ecobadge");
+
+                entity.Property(e => e.CompanyCuisinesId)
+                    .ValueGeneratedNever()
+                    .HasColumnName("CompanyCuisinesID");
+
+                entity.Property(e => e.CompanyId).HasColumnName("CompanyID");
+
+                entity.Property(e => e.CuisineId).HasColumnName("CuisineID");
+
+                entity.HasOne(d => d.Company)
+                    .WithMany(p => p.CompanyCuisines)
+                    .HasForeignKey(d => d.CompanyId)
+                    .HasConstraintName("FK_Cui1FK");
+
+                entity.HasOne(d => d.Cuisine)
+                    .WithMany(p => p.CompanyCuisines)
+                    .HasForeignKey(d => d.CuisineId)
+                    .HasConstraintName("FK_Cui2FK");
             });
 
             modelBuilder.Entity<Cuisine>(entity =>

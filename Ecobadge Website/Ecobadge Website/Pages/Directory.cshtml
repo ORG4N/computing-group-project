@@ -105,6 +105,7 @@
                         <th>Postcode</th>
                         <th>Telephone</th>
                         <th>Tier</th>
+                        <th>Cuisines</th>
                         <th>Vegan friendly</th>
                         <th>Doesn't use single use plastic</th>
                         <th>Foodwaste collection scheme</th>
@@ -128,29 +129,39 @@
     element.classList.add("container-fluid");
 
     const locations = [];
-    const cuisines = [];
+    const cuisines = {};
 
-    fetchCompanies().then(locationFilters);
-    fetchCuisines().then(cuisineFilters);
+    fetchCompanies().then(fetchCuisines).then(fetchCompanyCuisines).then(function() {
+        locationFilters();
+        cuisineFilters();
+    })
 
     function locationFilters(){
 
         locations.sort();
 
         for(i=0; i<locations.length; i++){
-            var value = locations[i];
+            const value = locations[i];
             $("#locations").append(`<a class="dropdown-item" href="#">${value}</a>`);
         }
     }
 
     function cuisineFilters(){
 
-        cuisines.sort();
+        const cuisineList  = [];
 
-        for(i=0; i<cuisines.length; i++){
-            var value = cuisines[i];
+        for (var key in cuisines){
+            const value = cuisines[key];
+            cuisineList.push(value);
+        }
+
+        // Easier to sort a list than a dictionary so export all cuisine names within the dict to cuisineList
+        cuisineList.sort();
+
+        // Print the alpabetical ordering of cuisines
+        for(i=0; i<cuisineList.length; i++){
+            var value = cuisineList[i];
             $("#cuisines").append(`<a class="dropdown-item" href="#">${value}</a>`);
-            console.log(value);
         }
     }
 
@@ -161,14 +172,15 @@
 
         const data = await raw.json();
 
-        data.forEach(({ companyName, county, address, postcode, tel, cuisine, ecobadgeTier, veganDishes, singleUsePlastic, foodWasteCollectionScheme, localProduce }) => {
-            $("#businesses").find('tbody').append(`<tr id="LC13" class="js-file-line">
+        data.forEach(({ companyId, companyName, county, address, postcode, tel, cuisine, ecobadgeTier, veganDishes, singleUsePlastic, foodWasteCollectionScheme, localProduce }) => {
+            $("#businesses").find('tbody').append(`<tr id="${companyId}" class="js-file-line">
                 <td>${companyName}</td>
                 <td>${county}</td>
                 <td>${address}</td>
                 <td>${postcode}</td>
                 <td>${tel}</td>
                 <td>${ecobadgeTier}</td>
+                <td style="text-align:center"></td>
                 <td>${veganDishes}</td>
                 <td>${singleUsePlastic}</td>
                 <td>${foodWasteCollectionScheme}</td>
@@ -181,19 +193,33 @@
         });
     }
 
-     async function fetchCuisines() {
+    async function fetchCuisines() {
 
         const url = "https://localhost:44393/api/cuisines";
         const raw = await fetch(url);
 
         const data = await raw.json();
 
-        data.forEach(({ cuisineName }) => {
-
-            if (!cuisines.includes(cuisineName)){
-                cuisines.push(cuisineName);
-            }
+        data.forEach(({cuisineId, cuisineName }) => {
+            cuisines[cuisineId] = cuisineName;
         });
+        console.table(cuisines);
+    }
+
+    async function fetchCompanyCuisines(){
+        const url = "https://localhost:44393/api/companycuisines";
+        const raw = await fetch(url);
+
+        const data = await raw.json();
+
+        data.forEach(({cuisineId, companyId }) => {
+
+            const row = document.getElementById(companyId);
+            const value = cuisines[cuisineId];
+            const col = row.getElementsByTagName('td')[6];
+            col.innerText += value + "\n";
+        });
+
     }
 
 </script>

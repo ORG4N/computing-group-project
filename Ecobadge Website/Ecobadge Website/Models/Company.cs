@@ -7,6 +7,11 @@ namespace Ecobadge_Website.Models
 {
     public partial class Company
     {
+        public Company()
+        {
+            CompanyCuisines = new HashSet<CompanyCuisine>();
+        }
+
         public int CompanyId { get; set; }
         public string CompanyName { get; set; }
         public string Biography { get; set; }
@@ -26,5 +31,7 @@ namespace Ecobadge_Website.Models
         public bool? FoodWasteCollectionScheme { get; set; }
         public bool? LocalProduce { get; set; }
         public int? Tel { get; set; }
+
+        public virtual ICollection<CompanyCuisine> CompanyCuisines { get; set; }
     }
 }
