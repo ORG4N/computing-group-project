@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Ecobadge_Website.Pages
 {
-    public class BusinessModel : PageModel
+    public class BusinessProfileModel : PageModel
     {
         public void OnGet()
         {
