@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IjLJL4fYTvDmDE9L2daT4+QvGZ+It2dJX0nz4P3ajhG/PA0X0H8EtthMa/FM6lsYXNOJTbKP2aB9xHl9HtP0mw==",
+  "dgSpecHash": "kE8M3jLeYXzQbXSSx7CT77yIoa1z1/IdbMB623OfC8pMAimL29M72ZlQ8Kozag7UvHppXF8vAAOwuUa20SpSZQ==",
   "success": true,
   "projectFilePath": "F:\\comp2003_2021-group-a\\Ecobadge Website\\Ecobadge Website\\Ecobadge Website.csproj",
   "expectedPackageFiles": [
@@ -127,7 +127,8 @@
     "C:\\Users\\datgu\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\datgu\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\datgu\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\datgu\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\datgu\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\datgu\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.16\\microsoft.netcore.app.host.win-x64.5.0.16.nupkg.sha512"
   ],
   "logs": []
 }

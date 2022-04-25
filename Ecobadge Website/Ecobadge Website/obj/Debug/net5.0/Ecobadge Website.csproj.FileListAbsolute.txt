@@ -461,3 +461,5 @@ F:\comp2003_2021-group-a\Ecobadge Website\Ecobadge Website\obj\Debug\net5.0\refi
 F:\comp2003_2021-group-a\Ecobadge Website\Ecobadge Website\obj\Debug\net5.0\Ecobadge Website.pdb
 F:\comp2003_2021-group-a\Ecobadge Website\Ecobadge Website\obj\Debug\net5.0\Ecobadge Website.genruntimeconfig.cache
 F:\comp2003_2021-group-a\Ecobadge Website\Ecobadge Website\obj\Debug\net5.0\ref\Ecobadge Website.dll
+F:\comp2003_2021-group-a\Ecobadge Website\Ecobadge Website\obj\Debug\net5.0\Razor\Pages\BusinessProfile.cshtml.g.cs
+F:\comp2003_2021-group-a\Ecobadge Website\Ecobadge Website\obj\Debug\net5.0\Razor\Pages\UserProfile.cshtml.g.cs
