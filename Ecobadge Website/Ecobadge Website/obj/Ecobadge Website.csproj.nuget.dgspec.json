@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "F:\\comp2003_2021-group-a\\Ecobadge Website\\Ecobadge Website\\Ecobadge Website.csproj": {}
+    "C:\\Users\\aclev\\Documents\\GitHub\\comp2003_2021-group-a\\Ecobadge Website\\Ecobadge Website\\Ecobadge Website.csproj": {}
   },
   "projects": {
-    "F:\\comp2003_2021-group-a\\Ecobadge Website\\Ecobadge Website\\Ecobadge Website.csproj": {
+    "C:\\Users\\aclev\\Documents\\GitHub\\comp2003_2021-group-a\\Ecobadge Website\\Ecobadge Website\\Ecobadge Website.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\comp2003_2021-group-a\\Ecobadge Website\\Ecobadge Website\\Ecobadge Website.csproj",
+        "projectUniqueName": "C:\\Users\\aclev\\Documents\\GitHub\\comp2003_2021-group-a\\Ecobadge Website\\Ecobadge Website\\Ecobadge Website.csproj",
         "projectName": "Ecobadge Website",
-        "projectPath": "F:\\comp2003_2021-group-a\\Ecobadge Website\\Ecobadge Website\\Ecobadge Website.csproj",
-        "packagesPath": "C:\\Users\\datgu\\.nuget\\packages\\",
-        "outputPath": "F:\\comp2003_2021-group-a\\Ecobadge Website\\Ecobadge Website\\obj\\",
+        "projectPath": "C:\\Users\\aclev\\Documents\\GitHub\\comp2003_2021-group-a\\Ecobadge Website\\Ecobadge Website\\Ecobadge Website.csproj",
+        "packagesPath": "C:\\Users\\aclev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aclev\\Documents\\GitHub\\comp2003_2021-group-a\\Ecobadge Website\\Ecobadge Website\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\datgu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aclev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -77,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     }
