@@ -4,12 +4,32 @@ We've been working with EcoBadge to create a Minimum Viable Product (MVP) websit
 
 # Frontend
 
+-
+
 ### Website Pages
+
+-
+
+-
 
 ### Directory
 
+-
+
+-
+
 # Backend
+
+-
 
 ### API
 
+-
+
+-
+
 ### Database
+
+-
+
+-
