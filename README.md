@@ -24,11 +24,11 @@ In collaboration with the website, the Backend provides a database that stores d
 
 ### API
 
--
+- The API gets information from the database, and sends it to the frontend where it is shown to the user.
 
 ### Database
 
-- The database holds data related to the Business Profile, 
+- The database holds data related to a Business's profile, menu, ranking, and other details used in the website.
 
 # Team Members
 
