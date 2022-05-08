@@ -28,7 +28,7 @@ In collaboration with the website, the Backend provides a database that stores d
 
 ### Database
 
-- The database holds data related to a Business's profile, menu, ranking, and other details used in the website.
+- The database holds data related to a Business's profile, menu, ranking, and other important business details.
 
 # Team Members
 
