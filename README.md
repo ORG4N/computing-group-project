@@ -4,11 +4,11 @@ We've been working with EcoBadge to create a Minimum Viable Product (MVP) websit
 
 # Frontend
 
--
+- types of users
 
 ### Website Pages
 
--
+- functionality
 
 -
 
@@ -20,7 +20,7 @@ We've been working with EcoBadge to create a Minimum Viable Product (MVP) websit
 
 # Backend
 
--
+- types of businesses
 
 ### API
 
@@ -33,3 +33,13 @@ We've been working with EcoBadge to create a Minimum Viable Product (MVP) websit
 -
 
 -
+
+### Team Members
+
+- Product Owner: Josh Fruin
+
+- Scrum Master: Callum Organ
+
+- Technical Lead: Thomas Mahoney
+
+- Client Liaison: Alex Cleverley
