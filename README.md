@@ -4,7 +4,7 @@ We've been working with EcoBadge to create a Minimum Viable Product (MVP) websit
 
 # Frontend
 
-- The EcoBadge website is intended for customers looking to order food and support businesses in their local area that are actively trying to reduce their environmental impact and improve thier local communities.
+The EcoBadge website is intended for customers looking to order food and support businesses in their local area that are actively trying to reduce their environmental impact and improve thier local communities.
 - types of users
 
 ### Website Pages
