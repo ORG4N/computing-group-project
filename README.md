@@ -6,7 +6,7 @@ We've been working with EcoBadge to create a Minimum Viable Product (MVP) websit
 
 The EcoBadge website is intended for customers looking to order food and support businesses in their local area that are actively trying to reduce their environmental impact and improve thier local communities.
 
-### Website Pages
+### Website Features
 
 - functionality
 
@@ -24,7 +24,7 @@ In collaboration with the website, the Backend provides a database that stores d
 
 ### API
 
-- The API gets information from the database, and sends it to the frontend where it is shown to the user.
+- The API gets information from the database and sends it to the frontend where it is shown to the user.
 
 ### Database
 
