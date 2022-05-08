@@ -34,7 +34,7 @@ We've been working with EcoBadge to create a Minimum Viable Product (MVP) websit
 
 -
 
-### Team Members
+# Team Members
 
 - Product Owner: Josh Fruin
 
