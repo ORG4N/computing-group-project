@@ -20,19 +20,15 @@ The EcoBadge website is intended for customers looking to order food and support
 
 # Backend
 
-The EcoBadge website is for businesses in the food industry, who want to reduce their environmental impact and operate under a eco-friendly mindset whilst providing services to their customers.
+In collaboration with the website, the Backend provides a database that stores data about local food eateries and businesses, and a API that presents that information to the Frontend.
 
 ### API
 
 -
 
--
-
 ### Database
 
--
-
--
+- The database holds data related to the Business Profile, 
 
 # Team Members
 
