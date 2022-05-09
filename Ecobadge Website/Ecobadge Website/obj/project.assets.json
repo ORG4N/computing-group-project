@@ -7149,24 +7149,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aclev\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\datgu\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aclev\\Documents\\GitHub\\comp2003_2021-group-a\\Ecobadge Website\\Ecobadge Website\\Ecobadge Website.csproj",
+      "projectUniqueName": "F:\\comp2003_2021-group-a\\Ecobadge Website\\Ecobadge Website\\Ecobadge Website.csproj",
       "projectName": "Ecobadge Website",
-      "projectPath": "C:\\Users\\aclev\\Documents\\GitHub\\comp2003_2021-group-a\\Ecobadge Website\\Ecobadge Website\\Ecobadge Website.csproj",
-      "packagesPath": "C:\\Users\\aclev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aclev\\Documents\\GitHub\\comp2003_2021-group-a\\Ecobadge Website\\Ecobadge Website\\obj\\",
+      "projectPath": "F:\\comp2003_2021-group-a\\Ecobadge Website\\Ecobadge Website\\Ecobadge Website.csproj",
+      "packagesPath": "C:\\Users\\datgu\\.nuget\\packages\\",
+      "outputPath": "F:\\comp2003_2021-group-a\\Ecobadge Website\\Ecobadge Website\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\aclev\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\datgu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7221,6 +7216,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.16, 5.0.16]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -7229,7 +7230,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

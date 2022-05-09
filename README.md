@@ -1,3 +1,41 @@
-[![Work in Repl.it](https://classroom.github.com/assets/work-in-replit-14baed9a392b3a25080506f3b7b6d57f295ec2978f6f33ec97e36a161684cbe9.svg)](https://classroom.github.com/online_ide?assignment_repo_id=6372914&assignment_repo_type=AssignmentRepo)
+This is Team A's github repo for the COMP2003 Computing Group Project.
 
-#JusticeForJohnnyDepp
+We've been working with EcoBadge to create a Minimum Viable Product (MVP) website for their business.
+
+# Frontend
+
+The EcoBadge website is intended for customers looking to order food and support businesses in their local area that are actively trying to reduce their environmental impact and improve thier local communities.
+
+### Website Features
+
+- functionality
+
+-
+
+### Directory
+
+-
+
+-
+
+# Backend
+
+In collaboration with the website, the Backend provides a database that stores data about local food eateries and businesses, and a API that presents that information to the Frontend.
+
+### API
+
+- The API gets information from the database and sends it to the frontend where it is shown to the user.
+
+### Database
+
+- The database holds data related to a business's profile, menu, ranking, and other important business details.
+
+# Team Members
+
+- Product Owner: Josh Fruin
+
+- Scrum Master: Callum Organ
+
+- Technical Lead: Thomas Mahoney
+
+- Client Liaison: Alex Cleverley
