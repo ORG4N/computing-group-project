@@ -42,4 +42,4 @@ In collaboration with the website, the Backend provides a database that stores d
 
 # Links
 
-Kanban Board: https://trello.com/b/dxM1i116/ecobadge
+Team A's Kanban Board: https://trello.com/b/dxM1i116/ecobadge
