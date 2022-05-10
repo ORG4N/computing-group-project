@@ -15,7 +15,7 @@
     </script>
 } 
 
-<div class="container-fluid wrapper">
+<div class="container-fluid p-10">
 
     <div class="row">
 
@@ -318,7 +318,7 @@
             foodWasteCollectionScheme = mustHaves[2];
             localProduce = mustHaves[3];
 
-            $("#businesses").find('tbody').append(`<tr id="${companyId}" class="js-file-line" onclick="location.href = '@(Url.Page("BusinessProfile", new { id = "Business"}))?id=' + ${companyId}">
+            $("#businesses").find('tbody').append(`<tr id="${companyId}" class="js-file-line" onclick="location.href = '@(Url.Page("BusinessProfile", new { }))?id=' + ${companyId}">
                 <td>${companyName}</td>
                 <td>${county}</td>
                 <td>${address}</td>

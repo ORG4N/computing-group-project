@@ -1,4 +1,4 @@
-﻿@page "{id?}"
+﻿ @page
 @model Ecobadge_Website.Pages.BusinessProfileModel
 @{
     ViewData["Title"] = "Business";
@@ -8,96 +8,124 @@
     <link href="@Url.Content("~/css/businessprofile.css")" rel="stylesheet" type="text/css"/>
 }
 
+@section Scripts{
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        feather.replace()
+    </script>
+} 
 
-<div class="container wrapper">
-    <h3 class="text-center">Business Profile</h3>
-    <div class="row">
-        <div class="col-4 image-container">
-            --Image Placeholder--
-        </div>
-
-        <div class="col-8 text-container">
-            <div class=""> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fringilla blandit mauris, sit amet gravida erat sodales in. Nunc rutrum blandit augue, a dictum nibh dictum quis. Quisque pretium lorem consectetur orci placerat sodales. Aliquam id elit libero. Duis in ex nisi. Praesent a risus est. In et pharetra erat. In condimentum, mi ut placerat dapibus, arcu nunc sagittis sem, non euismod eros libero id ex. Donec ut pharetra risus. Duis fringilla est et cursus ultrices. Nulla mollis nec metus sed elementum. Phasellus et odio eget elit euismod dictum.</div>
-        </div>
-    </div>
-    <br>
-
-    <div class="text-center text-header" style="">Our Menu</div>
-    <div class="col-12 text-container">
-
-        <div class="col-md-12 text-center">
-            <div class="pt-2">
-                <br>
-                <p>Click for full PDF</p>
-                <br>
-            </div>
-        </div>
-    </div>
-    <br>
-    <div class="text-center text-header">Eco Badge Tier</div>
+<div class="container-fluid h-100">
 
     <div class="row">
-        <div class="col-4 image-container">
-            --Image Placeholder--
-        </div>
 
-        <div class="col-8 text-container">
-            <div class=""> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fringilla blandit mauris, sit amet gravida erat sodales in. Nunc rutrum blandit augue, a dictum nibh dictum quis. Quisque pretium lorem consectetur orci placerat sodales. Aliquam id elit libero. Duis in ex nisi. Praesent a risus est. In et pharetra erat. In condimentum, mi ut placerat dapibus, arcu nunc sagittis sem, non euismod eros libero id ex. Donec ut pharetra risus. Duis fringilla est et cursus ultrices. Nulla mollis nec metus sed elementum. Phasellus et odio eget elit euismod dictum.</div>
-        </div>
-    </div>
-</div>
-
-<div class="modal fade" id="contact" tabindex="-1" role="dialog">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="modal-header text-center">
-                <h5 class="modal-title w-100">Contact us</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
+        <div class="col-4 left-col p-4">
+            <div class="row justify-content-center">
+                <div class="card w-100 h-100">
+                    <img class="card-img-top" src="..." alt="Company Image">
+                    <div class="card-body">
+                        <h5 class="card-title">COMPANY</h5>
+                    </div>
+                </div>
             </div>
+        </div>
 
-            <div class="modal-body">
+        <div class="col-8 right-col">
+            <div class="row justify-content-center">
+                <div class="card-deck">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Vegan Dishes</h5>
+                            <i class="card-text" data-feather="check"></i>
+                        </div>
+                    </div>
 
-                <div class="input-group input-group-lg mx-auto">
-                    <input type="text" class="form-control" placeholder="Name" id="name">
-                </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Single-Use Plastic</h5>
+                            <i class="card-text" data-feather="check"></i>
+                        </div>
+                    </div>
 
-                <div class="input-group input-group-lg mx-auto">
-                    <input type="email" class="form-control" placeholder="Email" id="email">
-                </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Foodwaste Collection Scheme</h5>
+                            <i class="card-text" data-feather="check"></i>
+                        </div>
+                    </div>
 
-                <div class="input-group input-group-lg mx-auto">
-                    <input type="text" class="form-control" placeholder="Your message" id="message">
-                </div>
-
-                <div class="input-group input-group-lg mx-auto" style="padding-top:5px">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="mail">
-                        <label class="form-check-label" for="flexCheckDefault">
-                            I consent to my email address being used for marketing and
-                            promotional reasons, and subscribe to the ECO Badge mailing list.
-                        </label>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Locally Sourced Produce</h5>
+                            <i class="card-text" data-feather="check"></i>
+                        </div>
                     </div>
                 </div>
-
-                <div class="input-group input-group-lg mx-auto">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="terms">
-                        <label class="form-check-label" for="flexCheckDefault">
-                            I agree to the <a href="#"> Terms and Conditions</a>
-                            and <a href="#"> Policy</a>
-                            , and give consent to the use of my details and information for the purpose of responding to my message.
-                        </label>
-                    </div>
-                </div>
-
-                <div class="d-flex justify-content-center" style="padding:15px">
-                    <button type="button" class="btn btn-dark" style="width:40%">Submit</button>
-                </div>
-
             </div>
         </div>
     </div>
+
+    <div id="image"></div>
+    <div id="companyName"></div>
+    <div id="city"></div>
+    <div id="county"></div>
+    <div id="address"></div>
+    <div id="postcode"></div>
+    <div id="description"></div>
+    <div id="email"></div>
+    <div id="tel"></div>
+    <div id="weblink"></div>
+    <div id="score"></div>
+    <div id="tier"></div>
+
+    <div id="mh1"></div>
+    <div id="mh2"></div>
+    <div id="mh3"></div>
+    <div id="mh4"></div>
+
 </div>
+
+<script>
+
+    const element = document.getElementById("parent");
+    element.classList.remove("container");
+    element.classList.add("container-fluid");
+
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const companyId = urlParams.get('id');
+
+    console.log(companyId);
+    fetchCompanies(companyId);
+
+    async function fetchCompanies(id) {
+
+        const url = "https://localhost:44393/api/companies/" + id;
+        const raw = await fetch(url);
+
+        const data = await raw.json();
+
+        document.getElementById("companyName").innerText = data.companyName;
+        document.getElementById("image").innerText = data.compImg;
+        document.getElementById("description").innerText = data.biography;
+
+        document.getElementById("city").innerText = data.cityOrTown;
+        document.getElementById("county").innerText = data.county;
+        document.getElementById("address").innerText = data.address;
+        document.getElementById("postcode").innerText = data.postcode;
+
+        document.getElementById("email").innerText = data.companyEmail;
+        document.getElementById("weblink").innerText = data.websiteLink;
+        document.getElementById("tel").innerText = data.tel;
+
+        document.getElementById("score").innerText = data.companyScore;
+        document.getElementById("tier").innerText = data.ecobadgeTier;
+
+        document.getElementById("mh1").innerText = data.veganDishes;
+        document.getElementById("mh2").innerText = data.singleUsePlastic;
+        document.getElementById("mh3").innerText = data.foodWasteCollectionScheme;
+        document.getElementById("mh4").innerText = data.localProduce;
+    }
+
+</script>
 
