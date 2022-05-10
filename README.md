@@ -6,12 +6,6 @@ We've been working with EcoBadge to create a Minimum Viable Product (MVP) websit
 
 The EcoBadge website is intended for customers looking to order food and support businesses in their local area that are actively trying to reduce their environmental impact and improve thier local communities.
 
-### Website Features
-
-- functionality
-
--
-
 ### Directory
 
 - Displays business's information (postcode, phone number, company name etc.) to the user. These can be filtered for businesses that are vegan friendly, or don't use single use plastic for exmaple.
