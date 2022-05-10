@@ -19,12 +19,78 @@
 
     <div class="row">
 
-        <div class="col-4 left-col p-4">
+        <div class="col-4 left-col">
             <div class="row justify-content-center">
                 <div class="card w-100 h-100">
-                    <img class="card-img-top" src="..." alt="Company Image">
+                    <img class="card-img-top" id="image" src="https://interactive-examples.mdn.mozilla.net/media/cc0-images/grapefruit-slice-332-332.jpg" alt="Company Image">
                     <div class="card-body">
-                        <h5 class="card-title">COMPANY</h5>
+                        <h5 class="card-title text-center text-capitalize" id="companyName"></h5>
+
+                        <div class="card-body">
+
+                            <div class="row">
+                                <div class="col-6">
+                                    <p>City </p>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <div id="city"></div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-6">
+                                    <p>County </p>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <div id="county"></div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-6">
+                                    <p>Address </p>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <div id="address"></div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-6">
+                                    <p>Postcode </p>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <div id="postcode"></div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+
+                                <h3>Contact us:</h3>
+                                <br>
+
+                                <div class="row">
+                                    <div class="col text-center">
+                                        <div id="email"></div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col text-center">
+                                        <div id="tel"></div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="row p-4">
+                                <div class="col">
+                                    <button type="button" class="btn btn-info btn-block" href="" id="weblink">Visit our page!</button>
+                                </div>
+                            </div>
+
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -36,52 +102,41 @@
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Vegan Dishes</h5>
-                            <i class="card-text" data-feather="check"></i>
+                            <div class="card-body" id="mh1"></div>
                         </div>
                     </div>
 
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Single-Use Plastic</h5>
-                            <i class="card-text" data-feather="check"></i>
+                            <div class="card-body" id="mh2"></div>
                         </div>
                     </div>
 
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Foodwaste Collection Scheme</h5>
-                            <i class="card-text" data-feather="check"></i>
+                            <div class="card-body" id="mh3"></div>
                         </div>
                     </div>
 
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Locally Sourced Produce</h5>
-                            <i class="card-text" data-feather="check"></i>
+                            <div class="card-body" id="mh4"></div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            
+            <div id="description"></div>
+          
+            <div id="score"></div>
+            <div id="tier"></div>
+
         </div>
     </div>
-
-    <div id="image"></div>
-    <div id="companyName"></div>
-    <div id="city"></div>
-    <div id="county"></div>
-    <div id="address"></div>
-    <div id="postcode"></div>
-    <div id="description"></div>
-    <div id="email"></div>
-    <div id="tel"></div>
-    <div id="weblink"></div>
-    <div id="score"></div>
-    <div id="tier"></div>
-
-    <div id="mh1"></div>
-    <div id="mh2"></div>
-    <div id="mh3"></div>
-    <div id="mh4"></div>
 
 </div>
 
@@ -106,7 +161,7 @@
         const data = await raw.json();
 
         document.getElementById("companyName").innerText = data.companyName;
-        document.getElementById("image").innerText = data.compImg;
+        //document.getElementById("image").innerText = data.compImg;
         document.getElementById("description").innerText = data.biography;
 
         document.getElementById("city").innerText = data.cityOrTown;
@@ -115,16 +170,28 @@
         document.getElementById("postcode").innerText = data.postcode;
 
         document.getElementById("email").innerText = data.companyEmail;
-        document.getElementById("weblink").innerText = data.websiteLink;
+        document.getElementById("weblink").href = data.websiteLink;
         document.getElementById("tel").innerText = data.tel;
 
         document.getElementById("score").innerText = data.companyScore;
         document.getElementById("tier").innerText = data.ecobadgeTier;
 
-        document.getElementById("mh1").innerText = data.veganDishes;
-        document.getElementById("mh2").innerText = data.singleUsePlastic;
-        document.getElementById("mh3").innerText = data.foodWasteCollectionScheme;
-        document.getElementById("mh4").innerText = data.localProduce;
+        if(data.veganDishes == true){$("#mh1").append('<i data-feather="check"></i>');}
+        else{ $("#mh1").append('<i data-feather="x"></i>');}
+
+        if(data.singleUsePlastic == true){$("#mh2").append('<i data-feather="check"></i>');}
+        else{ $("#mh2").append('<i data-feather="x"></i>');}
+
+        if(data.foodWasteCollectionScheme == true){$("#mh3").append('<i data-feather="check"></i>');}
+        else{ $("#mh3").append('<i data-feather="x"></i>');}
+
+        if(data.localProduce == true){$("#mh4").append('<i data-feather="check"></i>');}
+        else{ $("#mh4").append('<i data-feather="x"></i>');}
+        
+        feather.replace();
+        //document.getElementById("mh2").innerText = data.singleUsePlastic;
+        //document.getElementById("mh3").innerText = data.foodWasteCollectionScheme;
+        //document.getElementById("mh4").innerText = data.localProduce;
     }
 
 </script>
