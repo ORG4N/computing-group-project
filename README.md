@@ -11,7 +11,6 @@ The EcoBadge website is intended for customers looking to order food and support
 - Home page: The websites main page, which goes into detail on what EcoBadge is and shows the EcoBadge tiers.
 - About Us page: A page where members of the EcoBadge team are shown with information on EcoBadge's journey and future plans.
 - Login page: The websites login, users/businesses can login or sign up by picking an account type and credentials.
-- User Profile page: Your user page, where you can see your personal assessment score and recent places you've visited.
 
 ### Directory
 
