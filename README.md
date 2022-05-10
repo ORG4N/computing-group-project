@@ -14,9 +14,9 @@ The EcoBadge website is intended for customers looking to order food and support
 
 ### Directory
 
--
+- Displays business's information (postcode, phone number, company name etc.) to the user. These can be filtered for businesses that are vegan friendly, or don't use single use plastic for exmaple.
 
--
+- Clicking on a row in the Directory will show the user a business profile, where the businesses menu, EcoBadge tier and other information about the business can be found.
 
 # Backend
 
