@@ -39,3 +39,7 @@ In collaboration with the website, the Backend provides a database that stores d
 - Technical Lead: Thomas Mahoney
 
 - Client Liaison: Alex Cleverley
+
+# Links
+
+Kanban Board: https://trello.com/b/dxM1i116/ecobadge
